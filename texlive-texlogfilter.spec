@@ -1,6 +1,6 @@
 Name:		texlive-texlogfilter
 Version:	62792
-Release:	1
+Release:	2
 Summary:	Filter LaTeX engines output or log file
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/texlogfilter
