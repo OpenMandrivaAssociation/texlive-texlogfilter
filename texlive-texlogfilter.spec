@@ -3,7 +3,7 @@ Version:	62792
 Release:	2
 Summary:	Filter LaTeX engines output or log file
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/texlogfilter
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/texlogfilter
 License:	lppl1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texlogfilter.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texlogfilter.doc.r%{version}.tar.xz
