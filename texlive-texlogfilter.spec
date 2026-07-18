@@ -1,5 +1,6 @@
 %global tl_name texlogfilter
 %global tl_revision 71525
+%global tl_bin_links texlogfilter:%{_texmfdistdir}/scripts/texlogfilter/texlogfilter
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -15,6 +16,8 @@ BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(texlogfilter.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 texlogfilter is a Perl script designed to filter LaTeX engines output or
